@@ -1,0 +1,13 @@
+TextFit - A simple jQuery plugin that will make your titles fit in one line.
+
+Usage
+=====
+
+- Make sure your element(s) have a line-height set.
+- Find out what is the minimum font size your element(s) will look good.
+- Put this in a script tag:
+
+$('.my-element').textFit({minFontSize: 20});
+
+
+This still very alpha, and surely will present some misbehaviors
